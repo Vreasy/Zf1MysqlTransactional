@@ -1,0 +1,10 @@
+{
+    "name": "vreasy/zf1-mysql-transactional",
+    "description": "A ZF1 MySQL db adapter that supports nested transactions (OSL-3.0)",
+    "type": "library",
+    "license": "OSL-3.0",
+    "minimum-stability": "stable",
+    "require": {
+        "zendframework/zendframework1": "~1.12.0"
+    }
+}

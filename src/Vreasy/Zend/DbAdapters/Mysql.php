@@ -103,6 +103,10 @@ class DbAdapters_Mysql extends \Zend_Db_Adapter_Pdo_Mysql
         return $this->_transactionLevel;
     }
 
+    public function isRolledback()
+    {
+        return $this->_isRolledBack;
+    }
 
     /**
      * Check if all transactions have been committed
